@@ -102,3 +102,15 @@ $pedidos = array(
     array("pedido_id"=>99,"produto_id"=>43,"cliente"=>"Hollee Huffman","email"=>"rhoncus.Nullam.velit@egestasDuisac.ca","valor_bruto"=>"87.52"),
     array("pedido_id"=>100,"produto_id"=>42,"cliente"=>"Nell Kent","email"=>"Maecenas.iaculis@parturientmontes.com","valor_bruto"=>"99.86")
 );
+
+
+
+/*$total = 0;
+$produtos_venda = array();
+
+foreach ($pedidos as $key => $value) {
+    $total += $value['valor_bruto'];
+    $produtos_venda[$value['produto_id']] += 1;
+
+}
+arsort($produtos_venda);*/
